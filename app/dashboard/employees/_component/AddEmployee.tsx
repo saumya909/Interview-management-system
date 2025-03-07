@@ -5,6 +5,7 @@ import { Input } from "@/components/ui/input";
 import { useForm } from "react-hook-form";
 import { addEmployee } from "@/serveractions/addEmployee"; // Assuming you are handling the API call in this function
 import { FaEdit, FaUserPlus, FaTrash } from "react-icons/fa"; // Import Icons
+import  EmployeeList from "./DisplayEmployee"
 
 // const Input = React.forwardRef<HTMLInputElement, React.ComponentProps<"input">>(
 //   ({ className, type, ...props }, ref) => {
@@ -211,3 +212,4 @@ const AddEmployee = () => {
 };
 
 export default AddEmployee;
+
